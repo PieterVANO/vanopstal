@@ -1,0 +1,11 @@
+plugin:
+    name: 'vanopstal.pannes::lang.plugin.name'
+    description: 'vanopstal.pannes::lang.plugin.description'
+    author: vanopstal
+    icon: oc-icon-building
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Pannes
+        url: vanopstal/pannes/pannes
+        icon: icon-clipboard

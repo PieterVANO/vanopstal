@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table vanopstal_pannes_'
+    - builder_table_create_vanopstal_pannes_.php
+1.0.3:
+    - 'Updated table vanopstal_pannes_'
+    - builder_table_update_vanopstal_pannes_.php
+1.0.4:
+    - 'Updated table vanopstal_pannes_'
+    - builder_table_update_vanopstal_pannes2.php
+1.0.5:
+    - 'Updated table vanopstal_pannes_'
+    - builder_table_update_vanopstal_pannes__3.php

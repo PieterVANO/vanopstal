@@ -1,0 +1,38 @@
+columns:
+    date:
+        label: 'Date panne'
+        type: date
+        searchable: true
+        sortable: true
+    type:
+        label: 'Type Panne'
+        type: text
+        searchable: false
+        sortable: true
+    debut:
+        label: 'Début Panne'
+        type: time
+        searchable: false
+        sortable: false
+    depanne:
+        label: 'Début Dépannege'
+        type: time
+    remarche:
+        label: 'Fin panne'
+        type: time
+    raison:
+        label: 'Raison panne'
+        type: text
+        sortable: true
+    solution:
+        label: Solution
+        type: text
+        sortable: true
+    technicien:
+        label: Technicien
+        type: text
+        sortable: true
+    information:
+        label: 'Information supplémentaire'
+        type: text
+        searchable: true

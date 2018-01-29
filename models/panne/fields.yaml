@@ -1,0 +1,85 @@
+fields:
+    date:
+        label: 'Date de la panne'
+        oc.commentPosition: ''
+        mode: date
+        span: auto
+        required: 1
+        type: datepicker
+    debut:
+        label: 'Heure de la panne'
+        oc.commentPosition: ''
+        mode: time
+        span: auto
+        required: 1
+        type: datepicker
+    depanne:
+        label: 'Heure dépannage'
+        oc.commentPosition: ''
+        mode: time
+        span: auto
+        required: 1
+        type: datepicker
+    remarche:
+        label: 'Heure de remise en fonctionnement'
+        oc.commentPosition: ''
+        mode: time
+        span: auto
+        required: 1
+        type: datepicker
+    type:
+        label: 'Type de panne'
+        oc.commentPosition: ''
+        options:
+            '01': Mécanique
+            '02': Electrique
+            '03': Informatique
+            '04': Soudure
+            '05': Pneumatique
+            '06': Hydrolique
+            '07': Autre
+        span: auto
+        required: 1
+        type: dropdown
+    raison:
+        label: 'Raison de la panne'
+        oc.commentPosition: ''
+        options:
+            '01': Usure
+            '02': Casse
+            '03': Protection
+            '04': 'Erreur Opérateur'
+            '05': 'Erreur Technicien'
+            '06': Météo
+        span: auto
+        required: 1
+        type: dropdown
+    solution:
+        label: 'Solution pour la réparation'
+        oc.commentPosition: ''
+        options:
+            '01': Souder
+            '02': 'Réparation Pièce'
+            '03': 'Changement Pièce'
+            '04': 'Sans outils'
+            '05': Protection
+        span: auto
+        required: 1
+        type: dropdown
+    technicien:
+        label: Technicien
+        oc.commentPosition: ''
+        options:
+            '01': Erwin
+            '02': J.J
+            '03': 'Autre interne'
+            '04': 'Autre externe'
+        span: auto
+        required: 1
+        type: dropdown
+    information:
+        label: 'Informations supplémentaire'
+        size: small
+        oc.commentPosition: ''
+        span: full
+        type: richeditor

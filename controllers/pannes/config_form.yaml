@@ -1,0 +1,10 @@
+name: Pannes
+form: $/vanopstal/pannes/models/panne/fields.yaml
+modelClass: Vanopstal\Pannes\Models\Panne
+defaultRedirect: vanopstal/pannes/pannes
+create:
+    redirect: 'vanopstal/pannes/pannes/update/:id'
+    redirectClose: vanopstal/pannes/pannes
+update:
+    redirect: vanopstal/pannes/pannes
+    redirectClose: vanopstal/pannes/pannes

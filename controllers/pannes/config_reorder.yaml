@@ -1,0 +1,4 @@
+title: Pannes
+modelClass: Vanopstal\Pannes\Models\Panne
+toolbar:
+    buttons: reorder_toolbar
